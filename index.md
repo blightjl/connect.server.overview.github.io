@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 # Tutorial: server
 
 **Fake Stack Overflow** is a web application that enables users to interact in a community-driven Q&A platform similar to Stack Overflow. **Users can ask questions, provide answers, add comments, vote on content, and join different communities**. The platform uses *real-time communication* and supports features like user profiles, messaging, and community interactions.
@@ -5,7 +9,7 @@
 
 **Source Repository:** [None](None)
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A0["Express Router Controllers
 "]
@@ -34,7 +38,7 @@ flowchart TD
     A3 -- "Type defines model" --> A1
     A7 -- "Populates initial data" --> A1
     A5 -- "Facilitates event testing" --> A8
-```
+</div>
 
 ## Chapters
 
