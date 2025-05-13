@@ -9,7 +9,7 @@ title: Home
 
 **Source Repository:** [None](None)
 
-<div class="mermaid">
+```mermaid
 flowchart TD
     A0["Express Router Controllers
 "]
@@ -38,7 +38,7 @@ flowchart TD
     A3 -- "Type defines model" --> A1
     A7 -- "Populates initial data" --> A1
     A5 -- "Facilitates event testing" --> A8
-</div>
+```
 
 ## Chapters
 
